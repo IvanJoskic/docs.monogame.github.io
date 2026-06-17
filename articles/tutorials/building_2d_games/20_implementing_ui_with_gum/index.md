@@ -385,7 +385,7 @@ With the Gum NuGet package added to our project, we need to initialize Gum in ou
 
 First, open the `Game1.cs` file and add the following new using statements to the top:
 
-[!code-csharp[](./snippets/game1/usings.cs?highlight=2-5)]
+[!code-csharp[](./snippets/game1/usings.cs?highlight=2-4)]
 
 Next, add the following method to the `Game1` class to encapsulate the initializations of the Gum UI service:
 
