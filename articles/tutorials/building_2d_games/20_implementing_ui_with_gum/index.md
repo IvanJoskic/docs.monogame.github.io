@@ -113,7 +113,7 @@ Panel mainMenuPanel = new Panel();
 mainMenuPanel.AddToRoot();
 
 // Creating a button and adding it as a child of the panel
-// anchored ot the bottom-left of the panel
+// anchored to the bottom-left of the panel
 Button startButton = new Button();
 startButton.Anchor(Gum.Wireframe.Anchor.BottomLeft);
 mainMenuPanel.AddChild(startButton);
