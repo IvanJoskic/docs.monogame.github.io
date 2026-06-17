@@ -58,7 +58,7 @@ When a game using Gum runs, this hierarchy is maintained in memory, with each el
 
 ### Gum Root Element
 
-All Gum elements must be directly or indirectly added to Gum's root container. This can be done directly wth the `AddToRoot()` method:
+All Gum elements must be directly or indirectly added to Gum's root container. This can be done directly with the `AddToRoot()` method:
 
 ```cs
 // Creating a panel and adding it to the root
