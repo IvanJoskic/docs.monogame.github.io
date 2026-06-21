@@ -475,7 +475,7 @@ Now we should implement the event handlers for these controls.  First, we will i
 
 [!code-csharp[](./snippets/titlescene/handlesfxsliderchanged.cs)]
 
-When the value of the "Sound Effects Volume" slider changes and this method is called, a reference to the slider is captured and then the the global sound effect volume is adjusted based on the value of the slider.
+When the value of the "Sound Effects Volume" slider changes and this method is called, a reference to the slider is captured and then the global sound effect volume is adjusted based on the value of the slider.
 
 Next is the handler when the "Sound Effects Volume" slider has completed a value change.  Add the following method to the `TitleScene` class after the `HandleSfxSliderChanged` method:
 
